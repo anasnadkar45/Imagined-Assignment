@@ -34,8 +34,8 @@ Make sure you have the following installed on your local machine:
 Clone: Open your terminal or command prompt and run
 
   ```bash
-   git clone https://github.com/anasnadkar45/procodebase-assignment.git
-   cd procodebase-assignment
+   git clone https://github.com/anasnadkar45/Imagined-Assignment.git
+   cd Imagined-Assignment
 ```
 
 Download: Alternatively, you can download the repository as a ZIP file from GitHub and extract it to your local machine.
