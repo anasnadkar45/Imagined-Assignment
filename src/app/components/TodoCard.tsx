@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useTodoStore } from "@/store/useTodoStore";
 import { Todo } from "@/types/todo";
 import { Badge } from "@/components/ui/badge";

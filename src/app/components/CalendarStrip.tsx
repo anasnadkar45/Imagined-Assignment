@@ -30,7 +30,7 @@ export const CalendarStrip: React.FC = () => {
     };
 
     return (
-        <div className=" flex items-center justify-center gap-2 sm:gap-3 md:gap-6 lg:gap-10 bg-white p-4">
+        <div className=" flex items-center justify-center gap-2 sm:gap-3 md:gap-6 lg:gap-10 bg-white p-4 border-b-2 border-muted-foreground border-dashed">
             <button onClick={() => handleWeekChange('prev')} className="text-gray-600">
                 <ChevronLeft size={24} />
             </button>
@@ -43,7 +43,7 @@ export const CalendarStrip: React.FC = () => {
                                 key={index}
                                 onClick={() => handleDateChange(day)}
                                 variant={isSelected ? 'default' : 'secondary'}
-                                className={`h-full flex flex-col items-center border ${isSelected ? 'text-white font-bold' : 'text-muted-foreground'
+                                className={`h-full flex flex-col items-center border-dashed ${isSelected ? 'text-white font-bold' : 'text-muted-foreground'
                                     }`}
                             >
                                 <span className="text-xs">{day.toLocaleDateString('en-US', { weekday: 'short' })}</span>
