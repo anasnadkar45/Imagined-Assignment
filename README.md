@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Imagined Frontend Assignment
+
+This project is a fully functional Todo Application built using Next.js and Zustand for state mangement. It enables users to manage their tasks effectively by adding, editing, deleting, and organizing todos with a clean and responsive interface.
+
+## Features
+
+- **Add Todos**: Easily add new tasks with priorities, status, and color tags.
+- **Edit Todos**: Update task details dynamically using an interactive modal.
+- **Delete Todos**:Remove tasks with a confirmation prompt to avoid accidental deletions.
+- **Persistent State**: Tasks are saved locally using Zustand with persistence middleware, ensuring data isn't lost on refresh.
+  
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering.
+- **React**: JavaScript library for building user interfaces.
+- **Typescript**: For handling the type of a variables and functions.
+- **Zustand**: Lightweight state management with persistence for local storage.
+- **Tailwind CSS**: For styling (if applicable).
+- **Other libraries or technologies you are using** (e.g., Shadcn, etc.).
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Make sure you have the following installed on your local machine:
+
+- **Node.js**: [Download and install](https://nodejs.org/)
+- **npm** or **yarn**: Comes bundled with Node.js.
+
+### Installation
+
+1.Clone the repository:
+
+Clone: Open your terminal or command prompt and run
+
+  ```bash
+   git clone https://github.com/anasnadkar45/procodebase-assignment.git
+   cd procodebase-assignment
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Download: Alternatively, you can download the repository as a ZIP file from GitHub and extract it to your local machine.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2.Open the Project in a Code Editor:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Navigate to the directory where you extracted or cloned the repository.
+ Open the project folder in your preferred code editor .
 
-## Learn More
+3.Install Dependencies
 
-To learn more about Next.js, take a look at the following resources:
+ Open a terminal or command prompt within your project directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Run the following command to install the required dependencies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+ ```bash
+  npm install
+```
 
-## Deploy on Vercel
+4.Run the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ After the dependencies are installed, start the project by running
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ ```bash
+npm run dev
+```
+This will usually start the development server and open the application in your default web browser.
